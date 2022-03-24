@@ -55,7 +55,7 @@ html {
 
 .header-nav-2 {
   grid-row: 2 / 3;
-  padding: 0px 20px 5px 20px;
+  padding: 10px 20px 10px 20px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -103,7 +103,7 @@ button {
   position: relative;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0px 1px 10px 0px #6c6c6c6b;
+  box-shadow: 0px 1px 5px 0px #6c6c6c6b;
 }
 
 .card-line {
@@ -119,11 +119,16 @@ button {
   padding: 25px;
 }
 
+.card-content p {
+  font-weight: 500;
+}
+
 .card-description {
   font-size: 14px;
   color: #6c6c6c;
   line-height: 1.4;
   margin-top: 10px;
+  font-size: 500;
 }
 
 .btn-nav {
@@ -151,14 +156,15 @@ div.section-title-2 {
 
 .card-2 {
   background-color: #fff;
-  padding: 30px;
+  padding: 28px;
   width: 250px;
   border-radius: 8px;
-  box-shadow: 0px 1px 10px 0px #6c6c6c6b;
+  box-shadow: 0px 1px 5px 0px #6c6c6c6b;
 }
 
 div.card-2 p {
   font-size: 14px;
+  font-weight: 500;
   color: #6c6c6c;
   line-height: 1.4;
   margin-top: 5px;
@@ -178,11 +184,12 @@ hr.divider {
   align-items: center;
   gap: 20px;
   border-radius: 8px;
-  box-shadow: 0px 1px 10px 0px #6c6c6c6b;
+  box-shadow: 0px 1px 5px 0px #6c6c6c6b;
 }
 
 div.card-3 p {
   font-size: 14px;
+  font-weight: 500;
   color: #6c6c6c;
   text-transform: capitalize;
   margin-top: 5px;
